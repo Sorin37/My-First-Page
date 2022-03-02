@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255, 242, 204);
+}
+h1{
+    color: rgba(124, 166, 232);
+}
+#form_body{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+input, select, textarea{
+    background:rgb(255, 242, 204);
+    width: 250px;
+    height: 35px;
+    border-width: medium medium medium medium;
+    font-weight: bold;
+}
+#city, #age{
+    width: 260px;
+    height: 42px;
+    background-image: url(down_arrow.png);
+}
+#description{
+    height: 100px;
+}
+label{
+    font-weight: bold;
+}
+.button{
+    background:rgb(109, 158, 235);
+    width: 100px;
+    height: 35px;
+    border-width:medium medium medium medium;
+    font-weight: bold;
+    margin-right: 50px;
+    border-radius: 30px;
+    color: rgb(34, 45, 64);
+}
